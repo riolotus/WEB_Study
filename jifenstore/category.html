@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>兑换商品-积分商城</title>
+    <link rel="stylesheet" href="css/public.css" type="text/css">
+    <link rel="stylesheet" href="css/category.css" type="text/css">
+    <link rel="icon" href="images/bitbug_favicon.ico">
+</head>
+<body>
+<div class="all">
+    <!-- 最上灰色横条 -->
+    <span class="top">
+        <!-- ul floatleft -->
+        <ul class="topNav">
+            <!-- 前四个：a
+            最后一个：鼠标滑过出现四个链接 -->
+            <li><a href="http://www.sina.com.cn/" target="_blank">新浪首页</a></li>
+            <li><a href="http://games.sina.com.cn/" target="_blank">新浪游戏</a></li>
+            <li><a href="http://www.97973.com/" target="_blank">97973手游网</a></li>
+            <li><a href="http://game.weibo.com/" target="_blank">微游戏</a></li>
+            <div class="tel">
+                <a href="#">手机</a>
+                <div class="app">
+                    <img src="images/jiao.jpg" alt="">
+                    <ul>
+                        <li>
+                            <a href="http://games.sina.com.cn/o/kb/12392.shtml" target="_blank" title="新浪游戏客户端">
+                                <img src="images/slogo1.jpg" alt="新浪游戏客户端" title="新浪游戏客户端">
+                            </a>
+                            <p>
+                                <a href="http://games.sina.com.cn/o/kb/12392.shtml" target="_blank" title="新浪游戏客户端">&nbsp;新浪游戏客户端</a>
+                            </p>
+                            <span class="app1">
+                                <a href="https://itunes.apple.com/cn/app/xin-lang-you-xi-shou-ji-ban/id528469922?mt=8" target="_blank">&nbsp;iPhone</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                                <a href="http://dl.games.sina.com.cn/game/apk/sina-game-android-2.1.0-release.apk" target="_blank">Android</a>
+                            </span>
+                        </li>
+                        <li>
+                            <a href="http://games.sina.com.cn/cardapp.shtml" target="_blank" title="新手卡客户端">
+                                <img src="images/slogo2.jpg" alt="新手卡客户端" title="新手卡客户端">
+                            </a>
+                            <p>
+                                <a href="http://games.sina.com.cn/cardapp.shtml" target="_blank" title="新手卡客户端">&nbsp;新手卡客户端</a>
+                            </p>
+                            <span class="app1">
+                                <a href="http://dl.games.sina.com.cn/game/app/sinacard.apk" target="_blank">&nbsp;Android</a>
+                            </span>    
+                        </li>
+                        <li class="app2">
+                            <a href="http://kan.sina.com.cn/download/?qq-pf-to=pcqq.c2c" target="_blank" title="看游戏客户端">
+                                <img src="images/slogo3.jpg" alt="看游戏客户端" title="看游戏客户端">
+                            </a>
+                            <p>
+                                <a href="http://kan.sina.com.cn/download/?qq-pf-to=pcqq.c2c" target="_blank" title="看游戏客户端">&nbsp;看游戏客户端</a>
+                            </p>
+                            <span class="app1">
+                                <a href="http://e.games.sina.com.cn/statistic/index/?url=f87d9bb38d003338244624ab82b6e970" target="_blank">&nbsp;点击下载</a>
+                            </span>    
+                        </li>
+                        <li>
+                            <a href="http://games.sina.cn" target="_blank" title="手机新浪网游戏频道">
+                                <img src="images/slogo4.jpg" alt="手机新浪网游戏频道" title="手机新浪网游戏频道">
+                            </a>
+                            <p>
+                                <a href="http://games.sina.cn" target="_blank" title="手机新浪网游戏频道">&nbsp;手机新浪网游戏频道</a>
+                            </p>
+                            <span class="app1">
+                                <a href="http://games.sina.cn" target="_blank">&nbsp;games.sina.cn</a>
+                            </span>    
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </ul>
+        <!--  floatright -->
+        <div class="topNotice">
+            公告：
+            <a href="#" target="_blank">参与调研，得海量积分</a>
+        </div>
+    </span>
+    <div class="middleall">
+        <div class="middle">
+            <h1>
+                <a href="http://jifen.sina.com.cn/" class="toIndex">
+                </a>  
+            </h1>
+            <div class="toPai">
+                <a href="#" id="toPai">
+                    <img src="images/toPai.jpg" target="_blank" alt="积分竞拍">
+                </a>
+            </div>
+            <span class="search">
+                <form action="#">    
+                    <input type="text" id="search" placeholder="输入查询商品名称......" >
+                    <input type="image"id="searchpic" src="images/search.png">
+                </form>
+            </span>
+        </div>
+    </div>
+    <!-- 导航部分 -->
+    <div class="Nav">
+        <div class="Navtop">
+            <ul class="topNav">
+                <li class="active">
+                    <a href="index.html">首页</a>
+                    <p class="line">|</p>
+                </li>
+                <li class="active">
+                    <a href="task.html">赚取积分</a>
+                    <p class="line">|</p>
+                </li>
+                <li class="styleindex active">
+                    <a href="category.html">兑换商品</a>
+                    <p class="line">|</p>
+                </li>
+                <li class="active">
+                    <a href="#" id="activity">积分活动</a>
+                    <p class="line">|</p>
+                    <div class="activity">
+                        <ul class="ul2">
+                            <li class="list1"><a href="pai.html" target="_blank">积分竞拍</a> </li>
+                            <li class="list1"><a href="lucky.html" target="_blank">幸运大转盘</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="active">
+                    <a href="sign.html">积分调研</a>
+                    <p class="line">|</p>
+                </li>
+                <li class="active">
+                    <a href="help.html">常见问题</a>
+                    <p class="line">|</p>
+                </li>
+            </ul>
+            <div class="login">
+                <p id="login">用户登录</p>
+            </div>
+        </div>
+    </div>   
+<!-- 主体  -->
+    <div class="main categoryMain">
+        <div id="artical">
+            <div class="artical">
+                <div class="title">
+                    <span class="tit1">全部商品</span>
+                    <span>最新上架</span>
+                    <span>虚拟卡券</span>
+                    <span>动漫周边</span>
+                    <span>电子数码</span>
+                    <span>居家生活</span>
+                    <span class="tit2">微游专区</span>
+                </div>
+                <div class="condition">
+                    <div class="left">
+                        <input type="radio" name="sea" id="jifenup" checked>
+                        <label for="jifenup" class="jifenup">
+                            <span>积分</span>
+                            <b></b>
+                        </label>
+                        <input type="radio" id="jifendown" name="sea">
+                        <label for="jifenup" class="jifendown">
+                            <span>积分</span>
+                            <b></b>
+                        </label>
+                        <input type="radio" id="xiaoliangup" name="sea">
+                        <label for="jifenup" class="xiaoliangup">
+                            <span>销量</span>
+                            <b></b>
+                        </label>
+                        <input type="radio" id="xiaoliangdown" name="sea">
+                        <label for="jifenup" class="xiaoliangdown">
+                            <span>销量</span>
+                            <b></b>
+                        </label>
+                    </div>
+                    <div class="right">
+                        <div id="search">
+                            <select name="searchjf" id="sejf" class="searchjf">
+                                <option value="" selected>全部积分范围</option>
+                                <option value="">0-10000积分</option>
+                                <option value="">10001-500000积分</option>
+                                <option value="">500001-1000000积分</option>
+                                <option value="">1000000积分以上</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div id="content">
+                    <ul id="contentlist">
+                        <li class="content">
+                            <a href="http://jifen.sina.com.cn/product/exchange_jifen" target="_blank" class="conimg" title="激情币兑换">
+                                <img src="images/main_1.png" alt="">
+                            </a>
+                            <div>
+                                <a href="http://jifen.sina.com.cn/product/exchange_jifen" target="_blank" class="conintr" title="激情币兑换">激情币兑换</a>
+                            </div>
+                        </li>
+                        <li class="content">
+                            <div class="new"></div>
+                            <a href="http://jifen.sina.com.cn/product/2107" target="_blank" class="conimg" title="【诺道】益生菌固体饮料50元代金券">
+                                <img src="images/main_2.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/2107" target="_blank" class="conintr" title="【诺道】益生菌固体饮料50元代金券">【诺道】益生菌固体饮料50元代金券</a>    
+                            </div>
+                            <b>100积分</b>
+                        </li>
+                        <li class="content">
+                            <div class="new"></div>
+                            <a href="http://jifen.sina.com.cn/product/2202" target="_blank" class="conimg" title="【milensea旗舰店】硫磺皂30元代金券">
+                                <img src="images/main_3.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/2202" target="_blank" class="conintr" title="【milensea旗舰店】硫磺皂30元代金券">【milensea旗舰店】硫磺皂30元代金券</a>    
+                            </div>
+                            <b>100积分</b>
+                        </li>
+                        <li class="content">
+                            <div class="new"></div>
+                            <a href="http://jifen.sina.com.cn/product/1948" target="_blank" class="conimg" title="【九蜂堂】洋槐蜂蜜410g  20元代金券">
+                                <img src="images/main_4.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/1948" target="_blank" class="conintr" title="【九蜂堂】洋槐蜂蜜410g  20元代金券">【九蜂堂】洋槐蜂蜜410g  20元代金券</a>    
+                            </div>
+                            <b>100积分</b>
+                        </li>
+                        <li class="content">
+                            <div class="new"></div>
+                            <a href="http://jifen.sina.com.cn/product/1949" target="_blank" class="conimg" title="【九蜂堂】花粉蜜茶350g  40元代金券">
+                                <img src="images/main_5.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/1949" target="_blank" class="conintr" title="【九蜂堂】花粉蜜茶350g  40元代金券">【九蜂堂】花粉蜜茶350g  40元代金券</a>    
+                            </div>
+                            <b>100积分</b>
+                        </li>
+                        <li class="content">
+                            <div class="new"></div>
+                            <a href="http://jifen.sina.com.cn/product/1970" target="_blank" class="conimg" title="马来西亚进口飞机套59.9元兑换券">
+                                <img src="images/main_6.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/1970" target="_blank" class="conintr" title="马来西亚进口飞机套59.9元兑换券">马来西亚进口飞机套59.9元兑换券</a>    
+                            </div>
+                            <b>100积分</b>
+                        </li>
+                        <li class="content">
+                            <div class="new"></div>
+                            <a href="http://jifen.sina.com.cn/product/2012" target="_blank" class="conimg" title="【视贝】除螨仪200元优惠券">
+                                <img src="images/main_7.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/2012" target="_blank" class="conintr" title="【视贝】除螨仪200元优惠券">【视贝】除螨仪200元优惠券</a>    
+                            </div>
+                            <b>100积分</b>
+                        </li>
+                        <li class="content">
+                            <div class="new"></div>
+                            <a href="http://jifen.sina.com.cn/product/2037" target="_blank" class="conimg" title="娇顿光采无瑕气垫CC霜80元优惠券">
+                                <img src="images/main_8.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/2037" target="_blank" class="conintr" title="娇顿光采无瑕气垫CC霜80元优惠券">娇顿光采无瑕气垫CC霜80元优惠券</a>    
+                            </div>
+                            <b>100积分</b>
+                        </li>
+                        <li class="content">
+                            <div class="new"></div>
+                            <a href="http://jifen.sina.com.cn/product/2038" target="_blank" class="conimg" title="娇顿净颜祛痘精华凝胶80元优惠券">
+                                <img src="images/main_9.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/2038" target="_blank" class="conintr" title="娇顿净颜祛痘精华凝胶80元优惠券">娇顿净颜祛痘精华凝胶80元优惠券</a>    
+                            </div>
+                            <b>100积分</b>
+                        </li>
+                        <li class="content">
+                            <a href="http://jifen.sina.com.cn/product/1875" target="_blank" class="conimg" title="《剑侠情缘》峨眉礼包">
+                                <img src="images/main_10.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/1875" target="_blank" class="conintr" title="《剑侠情缘》峨眉礼包">《剑侠情缘》峨眉礼包</a>    
+                            </div>
+                            <b>3,000积分</b>
+                        </li>
+                        <li class="content">
+                            <a href="http://jifen.sina.com.cn/product/1838" target="_blank" class="conimg" title="《盗墓笔记》开服钜惠">
+                                <img src="images/main_11.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/1838" target="_blank" class="conintr" title="《盗墓笔记》开服钜惠">《盗墓笔记》开服钜惠</a>    
+                            </div>
+                            <b>5,000积分</b>
+                        </li>
+                        <li class="content">
+                            <a href="http://jifen.sina.com.cn/product/1839" target="_blank" class="conimg" title="《九阴绝学》开服抢购">
+                                <img src="images/main_12.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/1839" target="_blank" class="conintr" title="《九阴绝学》开服抢购">《九阴绝学》开服抢购</a>    
+                            </div>
+                            <b>5,000积分</b>
+                        </li>
+                        <li class="content">
+                            <a href="http://jifen.sina.com.cn/product/1842" target="_blank" class="conimg" title="《仙侠道2》特惠礼包">
+                                <img src="images/main_13.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/1842" target="_blank" class="conintr" title="《仙侠道2》特惠礼包">《仙侠道2》特惠礼包</a>    
+                            </div>
+                            <b>5,000积分</b>
+                        </li>
+                        <li class="content">
+                            <a href="http://jifen.sina.com.cn/product/1873" target="_blank" class="conimg" title="《剑侠情缘》黄金礼包">
+                                <img src="images/main_14.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/1873" target="_blank" class="conintr" title="《剑侠情缘》黄金礼包">《剑侠情缘》黄金礼包</a>    
+                            </div>
+                            <b>8,000积分</b>
+                        </li>
+                        <li class="content">
+                            <a href="http://jifen.sina.com.cn/product/1840" target="_blank" class="conimg" title="《村长打天下》礼包">
+                                <img src="images/main_15.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/1840" target="_blank" class="conintr" title="《村长打天下》礼包">《村长打天下》礼包</a>    
+                            </div>
+                            <b>15,000积分</b>
+                        </li>
+                        <li class="content">
+                            <a href="http://jifen.sina.com.cn/product/1874" target="_blank" class="conimg" title="《剑侠情缘》卓越礼包">
+                                <img src="images/main_16.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/1874" target="_blank" class="conintr" title="《剑侠情缘》卓越礼包">《剑侠情缘》卓越礼包</a>    
+                            </div>
+                            <b>15,000积分</b>
+                        </li>
+                        <li class="content">
+                            <a href="http://jifen.sina.com.cn/product/1484" target="_blank" class="conimg" title="火影忍者钱包">
+                                <img src="images/main_17.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/1484" target="_blank" class="conintr" title="火影忍者钱包">火影忍者钱包</a>    
+                            </div>
+                            <b>90,000积分</b>
+                        </li>
+                        <li class="content">
+                            <a href="http://jifen.sina.com.cn/product/2271" target="_blank" class="conimg" title="宫廷牌匾冰箱贴">
+                                <img src="images/main_18.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/2271" target="_blank" class="conintr" title="宫廷牌匾冰箱贴">宫廷牌匾冰箱贴</a>    
+                            </div>
+                            <b>270,000积分</b>
+                        </li>
+                        <li class="content">
+                            <a href="http://jifen.sina.com.cn/product/2138" target="_blank" class="conimg" title="天然麦穗摆放花艺">
+                                <img src="images/main_19.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/2138" target="_blank" class="conintr" title="天然麦穗摆放花艺">天然麦穗摆放花艺</a>    
+                            </div>
+                            <b>390,000积分</b>
+                        </li>
+                        <li class="content">
+                            <a href="http://jifen.sina.com.cn/product/1376" target="_blank" class="conimg" title="ChinaJoy2014官方限量定制版T恤白色">
+                                <img src="images/main_20.jpg" alt="">
+                            </a>
+                            <div id="conintr">
+                                <a href="http://jifen.sina.com.cn/product/1376" target="_blank" class="conintr" title="ChinaJoy2014官方限量定制版T恤白色">ChinaJoy2014官方限量定制版T恤白色</a>    
+                            </div>
+                            <b>390,000积分</b>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="pageskip">
+                    <b class="page page1">1</b><b class="page page2">2</b><b class="page page2">3</b><b class="page page2">4</b>
+                    ......<b class="page page2 page9">9</b><b>>></b>
+                    <p>
+                        到第<input type="text" name="page" class="text">页&nbsp;&nbsp;
+                        <input type="button" value="确定" class="button">
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<div class="footerall">
+        <div class="footer">
+            <ul class="footleft">
+                <li class="foot1">
+                    <div class="icon pos1"></div>
+                    <p class="us">
+                        <span>关注我们</span><br>
+                        <a href="#" target="_blank">官方微博</a>
+                        <a href="#" target="_blank">官方QQ群</a>
+                    </p>
+                </li>
+                <li class="foot1">
+                    <div class="icon pos2"></div>
+                    <p class="us">
+                        <span>常见问题</span><br>
+                        <a href="#" target="_blank">兑换方式</a>
+                        <a href="#" target="_blank">配送方式</a>
+                    </p>
+                </li>
+                <li class="foot1">
+                    <div class="icon pos3"></div>
+                    <p class="us">
+                        <span>友情链接</span><br>
+                        <a href="#" target="_blank">新浪网</a>
+                        <a href="#" target="_blank">新浪游戏</a>
+                    </p>
+                </li>
+                <li class="foot1">
+                    <div class="icon pos4"></div>
+                    <p class="us">
+                        <span>特色活动</span><br>
+                        <a href="#" target="_blank">疯狂积分雨</a>
+                        <a href="#" target="_blank">转盘大抽奖</a>
+                    </p>
+                </li>
+            </ul>
+            <div id="code">
+                <div class="code">
+                    <p>关注公众号，每日送福利</p>
+                    <img src="images/erweima.jpg" alt="" class="erweima">
+                </div>
+                <div class="codetext">
+                    <p>商务合作</p>
+                    <b>shanshan35@staff.sina.com.cn</b>
+                </div>
+            </div>
+        </div>
+</div>
+<div class="aboutsinaall">
+    <div class="aboutsina">
+        <p>
+            <a target="_blank" href="http://corp.sina.com.cn/chn/" class="sina1">新浪简介</a>|
+            <a target="_blank" href="http://corp.sina.com.cn/eng/" class="sina1">About Sina</a>|
+            <a target="_blank" href="http://games.sina.com.cn/guide/index.shtml" class="sina1">网站地图</a>|
+            <a target="_blank" href="http://emarketing.sina.com.cn/" class="sina1">广告服务</a>|
+            <a target="_blank" href="http://www.sina.com.cn/contactus.html" class="sina1">联系我们</a>|
+            <a target="_blank" href="http://corp.sina.com.cn/chn/sina_job.html" class="sina1">招聘信息</a>|
+            <a target="_blank" href="http://www.sina.com.cn/intro/lawfirm.shtml" class="sina1">网站律师</a>|
+            <a target="_blank" href="http://english.sina.com" class="sina1">SINA English</a>|
+            <a target="_blank" href="https://login.sina.com.cn/signup/signup.php" class="sina1">通行证注册</a>|
+            <a target="_blank" href="http://tech.sina.com.cn/focus/sinahelp.shtml" class="sina1">产品答疑</a>
+        </p>
+        <br>
+        <p>  
+                Copyright © 1996-2014 SINA Corporation, All Rights Reserved
+        </p>
+        <br>
+        <p id="aboutcom">
+            新浪公司
+            <a target="_blank" class="sina2" href="http://corp.sina.com.cn/chn/copyright.html">版权所有</a>
+        </p>
+    </div>       
+    <div id="fixedtop">
+        <a href="#" ></a>
+    </div>
+</div>
+</body>
+</html>
