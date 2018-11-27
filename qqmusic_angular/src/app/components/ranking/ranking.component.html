@@ -1,0 +1,16 @@
+<li *ngFor="let item of objArr;let i =index;">
+    <div>
+        <a href="javascript:;"><img src="{{item.img}}" alt=""></a>
+    </div>
+    <div>
+        <h3>{{item.tit}}</h3>
+        <div class="content">
+            <a routerLink="/ranklist/{{i+1}}">
+                <p>1<span class="text_name">{{item.name1}}</span>{{item.singer1}}</p>
+                <p>2<span class="text_name">{{item.name2}}</span>{{item.singer2}}</p>
+                <p>3<span class="text_name">{{item.name3}}</span>{{item.singer3}}</p>
+            </a>
+        </div>
+    </div>
+
+</li>

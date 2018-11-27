@@ -1,0 +1,21 @@
+<div class="weui-search-bar" id="searchBar">
+    <form class="weui-search-bar__form">
+        <div class="weui-search-bar__box">
+            <i class="weui-icon-search"></i>
+            <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="搜索歌曲、歌单、专辑" required="">
+            <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+        </div>
+        <label class="weui-search-bar__label" id="searchText">
+        <i class="weui-icon-search"></i>
+        <span>搜索歌曲、歌单、专辑</span>
+      </label>
+    </form>
+    <a href="javascript:;" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+</div>
+<h3>热门搜索</h3>
+<div class="content">
+    <div><a href="javascript:;">见面吧!爱豆ONER</a></div>
+    <div *ngFor="let item of tags">
+        <a href="javascript:;">{{item}}</a>
+    </div>
+</div>

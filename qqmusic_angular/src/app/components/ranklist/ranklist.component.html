@@ -1,0 +1,19 @@
+<div class="titlebox" style="background: url({{imgArr}}) no-repeat content-box">
+    <div class="titimg">
+        <img src="{{imgArr}}" alt="">
+    </div>
+    <h2>{{titArr}}</h2>
+</div>
+<div class="conbox">
+    <div class="content" *ngFor="let item of conArr;let i =index;">
+        <p>{{i+1}}<span class="text_name">{{item.name1}}</span>{{item.singer1}}</p>
+    </div>
+</div>
+
+
+<!-- 自定义指令 -->
+<!-- <h5>{{testStr}}</h5> -->
+<!-- <h5 appMydir>{{testStr}}</h5> -->
+<!-- <h5 appMydir>testStr</h5> -->
+
+<!-- <h5 appMydir>{{testStr}}</h5> -->
