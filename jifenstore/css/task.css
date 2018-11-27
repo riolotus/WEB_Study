@@ -1,0 +1,288 @@
+.taskMain{
+    padding: 30px 0 80px;
+}
+.taskMain .pic{
+    display: inline-block;
+    width: 819px;
+    height: 350px;
+    margin: 30px 30px 30px 0;
+    /* background: darkolivegreen; */
+}
+.taskMain .mail{
+    display: inline-block;
+    width: 351px;
+    height: 350px;
+    margin-top: 30px;
+    /* background-color: royalblue; */
+    float: right;
+    background: #fff;
+}
+.taskMain .mail .sign{
+    padding: 28px 52px;
+}
+.taskMain .mail .sign span{
+    display: block;
+    text-indent: 61px;
+    cursor: pointer;
+    width: 247px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 24px;
+    color: #fff;
+    background: url(../images/indexsprite.png) 33px -50px no-repeat #ff4400 ;
+}
+.taskMain .mail #steps{
+
+}
+.taskMain .mail .steps{
+    width: 182px;
+    height: 190px;
+    padding: 10px 4px 18px 61px;
+    margin: 0 auto;
+    background: url(../images/task_coin.png) no-repeat 7px 7px;
+}
+.taskMain .mail .steps li{
+    height: 34px;
+    line-height: 34px;
+    font-size: 18px;
+    color: #474747;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.taskMain .mail .steps .login{
+    display: inline-block;
+    font-size: 18px;
+    color: #ff4401;
+}
+.taskMain .mail .steps .login:hover{
+    text-decoration: underline;
+}
+.taskMain .more .items{
+    display: inline-block;
+    width: 819px;
+    height:1201px;
+    margin-right: 29px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    position: relative;
+}
+.taskMain .more .items .item1{
+    color: #ff4400;
+    font-weight: bold;
+    width: 125px;
+    height: 53px;
+    line-height: 53px;
+    border-top: 2px solid #f40;
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    border-bottom:  1px solid #e9e9e9;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+.taskMain .more .items #task{
+    width: 836px;
+    margin-left: 26px;
+}
+.taskMain .more .items .task{
+    display: inline-block;
+    width: 367px;
+    height: 327px;
+    margin-top: 25px;
+    float: left;
+    margin-right: 20px;
+}
+.taskMain .more #task .task{
+
+    display: inline-block;
+    overflow: hidden;
+    width: 367px;
+    float: left;
+}
+.taskMain .more #task .task .arimg{
+    display: block;
+    width: 367px;
+    height: 229px;
+    position: relative;
+}
+.taskMain .more #task .task .arintr{
+    margin-top: 15px;
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+    color:#48494b;
+    overflow: hidden;
+    width: 77%;
+    height: 30px;
+}
+.taskMain .more #task .task #arintr b{
+    margin-top: 15px;
+    display: inline-block;
+    width: 65px;
+    float: right;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ff4400;
+    height: 30px;
+    text-align: right;
+}
+.taskMain .more #task .task:hover .arimg b{
+    display: block;
+}
+.taskMain .more #task .task .arimg b{
+    padding: 13px 20px 13px 20px;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    color: #474747;
+    width:327px;
+    display: none;
+    vertical-align: left;
+    background: url(../images/op0.85.png);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.taskMain .more #task .task .time{
+    margin-top: 34px;
+    height: 30px;
+    font-size: 14px;
+    text-indent: 23px;
+    font-family: "微软雅黑";
+    background: url(../images/other.png) no-repeat 3px -276px;
+}
+.taskMain .more #task .task .arintr:hover{
+    color: #f40;
+}
+
+.taskMain .more .items .pageskip{
+    width: 816px;
+    height: 50px;
+    font-size: 14px;
+    color: #474747;
+    /* margin: 26px 0 auto; */
+    float: left;
+    text-align: center;
+}
+.taskMain .more .items .pageskip b{
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    line-height: 46px;
+    border: 0;
+    cursor: pointer;
+}
+.taskMain .more .items .pageskip p{
+    display: inline-block;
+    text-align: center;
+}
+.taskMain .more .items .pageskip p .text{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    outline: none;
+    border: 1px solid #ececec;
+    vertical-align:middle;
+    text-indent: 11px;
+}
+.taskMain .more .items .pageskip p .button{
+    width: 94px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    background: #f40;
+    color: #fff;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+.taskMain .more .items .pageskip .page{
+    border: 1px solid #ececec;
+    cursor: pointer;
+}
+.taskMain .more .items .pageskip .page2{
+    border-left: none;
+}
+.taskMain .more .items .pageskip b:hover{
+    background-color: #f40;
+}
+
+.taskMain .more .scroll{
+    display: inline-block;
+    width: 351px;
+    height: 869px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    float: right;
+}
+.taskMain .more .scroll .item2{
+    width: 315px;
+    height: 37px;
+    padding:15px 25px 0;
+    /* border-bottom: 2px solid #f1f1f1; */
+    position: relative;
+}
+.taskMain .more .scroll .item2 .item2logo{
+    width: 26px;
+    height: 28px;
+    display: inline-block;
+    background: url(../images/taskicon.jpg) 6px 6px no-repeat;
+    vertical-align: -17%;
+}
+.taskMain .more .scroll .fontstyle2{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #474747;
+}
+.taskMain .more .scroll .item2 .xline{
+    display: inline-block;
+    width: 310px;
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    left: 25px;
+    background-color: #ff4400;
+}
+
+
+.taskMain .more .scroll .exchange{
+    height: 869px;
+    /* width: ; */
+    background: url(../images/list.jpg) 33px 18px no-repeat;
+}
+.taskMain .more .scroll .exchange .list{
+    width: 205px;
+    height: 111px;
+    padding: 21px 0 12px 0;
+    margin-left: 80px;
+}
+.taskMain .more .scroll .exchange .list div #exintr{
+    display: inline-block;
+    float: right;
+    margin:0px 21px;
+}
+.taskMain .more .scroll .exchange .list div #exintr p{
+    font-family: "微软雅黑";
+    font-size: 13px;
+    color: #474747;
+}
+.taskMain .more .scroll .exchange .list div #exintr b{
+    color: #f40;
+}
+.taskMain .more .scroll .exchange .list .eximg{
+    display: inline-block;
+}
+.taskMain .more .scroll .exchange .list .exintr{
+    font-size: 13px;
+    color: #ff4400;
+}
+.taskMain .more .scroll .exchange .list .eximg img{
+    display: block;
+    width: 88px;
+    height: 104px;
+    border: 1px solid #f1f1f1;
+}

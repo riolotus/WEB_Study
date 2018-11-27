@@ -1,0 +1,193 @@
+.categoryMain{
+    width: 100%;
+    padding: 30px 0 80px;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    font-size: 14px;
+    color: #474747;
+}
+.categoryMain #artical{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.categoryMain #artical .artical{
+    padding: 26px 30px;
+    background: #fff;
+}
+.categoryMain #artical .artical .title{
+    height: 51px;
+    border-top: 2px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+}
+.categoryMain #artical .artical .title span{
+    display: inline-block;
+    width: 161px;
+    text-align: center;
+    border-right: 1px solid #e9e9e9;
+    font-size: 18px;
+    line-height: 51px;
+    cursor: pointer;
+    float: left;
+}
+.categoryMain #artical .artical .title .tit1{
+
+    font-weight: bold;
+    color: #f40;
+}
+.categoryMain #artical .artical .title .tit2{
+    width: 165px;
+}
+.categoryMain #artical .artical .condition{
+    height: 46px;
+    background: #fafafa;
+    border: 1px solid #e9e9e9;
+    line-height: 46px;
+}
+.categoryMain #artical .artical .condition .left{
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: top;
+    float: left;
+}
+.categoryMain #artical .artical .condition .left label{
+    width: 62px;
+    display: inline-block;
+}
+.categoryMain #artical .artical .condition .left .jifenup b{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background: url(../images/p2.png) 0px -1px no-repeat;
+}
+.categoryMain #artical .artical .condition .left .jifendown b{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background: url(../images/p2.png) 0px -10px no-repeat;
+}
+.categoryMain #artical .artical .condition .left .xiaoliangup b{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background: url(../images/p2.png) 0px -1px no-repeat;
+}
+.categoryMain #artical .artical .condition .left .xiaoliangdown b{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background: url(../images/p2.png) 0px -10px no-repeat;
+}
+.categoryMain #artical .artical .condition .right{
+    width: 140px;
+    margin-right: 20PX;
+    float: right;
+}
+.categoryMain #artical .artical .condition .right #search{
+    height: 28px;
+    margin: 8px auto;
+    line-height: 28px;
+    background: #fff;
+}
+.categoryMain #artical .artical #content {
+    height: 1516px;
+}
+.categoryMain #artical .artical #content #contentlist{
+    /* background: #fff; */
+}
+.categoryMain #artical .artical .content{
+    width: 208px;
+    height: 354px;
+    margin: 25px 19px 0 0;
+    line-height: 22px;
+    position: relative;
+    float: left;
+}
+.categoryMain #artical .artical .content .new{
+    display: block;
+    width: 95px;
+    height: 67px;
+    background: url(../images/main_new.png) no-repeat;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+.categoryMain #artical .artical .content .conimg img{
+    width: 206px;
+    height: 243px;
+    display: inline-block;
+}
+.categoryMain #artical .artical .content:hover .new{
+    display: none;
+}
+.categoryMain #artical .artical .content b{
+    color: #f40;
+    display: inline-block;
+}
+.categoryMain #artical .artical .content .conintr:hover{
+    color: #f40;
+}
+.categoryMain #artical .artical .pageskip b:hover{
+    color: #f40;
+}
+
+.categoryMain #artical .artical .pageskip{
+    display: inline-block;
+    width:1200px;
+    height: 50px;
+    font-size: 14px;
+    color: #474747;
+
+    text-align: center;
+}
+.categoryMain #artical .artical .pageskip b{
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    line-height: 46px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.categoryMain #artical .artical .pageskip p{
+    display: inline-block;
+    text-align: center;
+}
+.categoryMain #artical .artical .pageskip p .text{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    outline: none;
+    border: 1px solid #ececec;
+    vertical-align:middle;
+    text-indent: 11px;
+}
+.categoryMain #artical .artical .pageskip p .button{
+    width: 94px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    background: #f40;
+    color: #fff;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+.categoryMain #artical .artical .pageskip .page{
+    border: 1px solid #ececec;
+    cursor: pointer;
+}
+.categoryMain #artical .artical .pageskip .page1{
+    background-color: #f40;
+    color: #fff;
+}
+.categoryMain #artical .artical .pageskip .page2{
+    border-left: none;
+}
+.categoryMain #artical .artical .pageskip .page9{
+    border-left: 1px solid #ececec;
+}
+.categoryMain #artical .artical .pageskip .page2:hover{
+    color: #f40;
+}

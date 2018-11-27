@@ -1,0 +1,467 @@
+/* 清除默认样式 */
+h1,h2,h3,h4,h5,h6,dl,dd,body,p{margin: 0; font-size: 12px;}
+
+ul,ol{margin: 0; padding:0; list-style: none;}
+a{text-decoration: none; color: #333;}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    }
+.clearfix{*zoom:1;}
+.fontstyle1{
+    height: 31px;
+    font: bold 16px/31px "微软雅黑";
+    color: #474747;
+}
+/* 全部画布 */
+.all{
+    width: 100%;
+    background: #f3f3f3;
+}
+        /* 头部 */
+.top{
+    display: block;
+    width: 1200px;
+    height: 38px;
+    background: #f3f3f3;
+    margin: 0 auto;
+}
+/* 头部导航 */
+.top .topNav{
+    display: inline-block;
+    width: 800px;
+    height: 38px;
+    margin: 0 auto; 
+    line-height: 38px;
+}
+.top .topNav li{
+    width: 95px;
+    /* border: 1px solid #333; */
+    padding-right: 16px;
+    float: left;
+}
+.top .topNav .tel{
+    width: 60px;
+    height: 36px;
+    float: left;
+    position: relative;
+}
+.top .topNav .tel>a{
+    display: block;
+    background: url(../images/JfTop.png) no-repeat -27px 0px;
+    font:12px/36px '微软雅黑';
+    padding-top: 2px;
+    padding-left: 14px;
+}
+.top .topNav .tel>a:hover{
+    color: #ff8400;
+    background: url(../images/JfTop.png) no-repeat -27px -38px;
+}
+.top .topNav>li>a:hover{
+    color: #ff8400;
+}
+.top .topNav>li>a:active{
+    border:1px dotted black;
+}
+.top .app{
+    margin-top: 14px;
+    width: 450px;
+    height: 160px;
+    border: 1px solid #d1d1d1;
+    background: #fff;
+    position: absolute;
+    left: -20px;
+    top: 28px;
+    display: none;
+    z-index: 999;
+}
+.top .app>img{
+    position: absolute;
+    top: -6px;
+    left: 17px;
+}
+.top .app li{
+    display: inline-block;
+    /* float: left; */
+    width: 209px;
+    height: 50px;
+    margin-top: 20px;
+}
+.top .app li a img{
+    float: left;
+    margin-left: 20px;
+}
+.top .app p{
+    width: 189px;
+    height: 28px;
+    padding-left: 15px;
+    line-height: 22px;
+    color: #4d4d4d;
+    font-weight: bold;
+    font-size: 14px;
+}
+.top .app p a:hover{
+    color: #ff8400;
+}
+.top .app .app1{
+    width: 200px;
+    height: 22px;
+    line-height: 22px;
+    display: block;
+    font: 12px "微软雅黑";
+    color: #4d4d4d;
+}
+.top .app .app1 a{
+    color: #ff9423;
+    font: 12px "微软雅黑"
+}
+.top .tel:hover .app{
+    display: block;
+}
+.top .app .app1 a:hover{
+    text-decoration: underline;
+}
+.top .topNotice{
+    display: inline-block;
+    float: right;
+    width:278px;
+    height: 38px;
+    padding-left: 30px;
+    background: url(../images/notice.png) no-repeat 0px 0px;
+    line-height: 38px;
+}
+.top .topNotice a{
+    color: #474747;
+}
+.top .topNotice a :hover{
+    color: #fd982d;
+}
+/* 灰色头部以下 */
+.all .middleall{
+    width: 100%;
+    height: 93px;
+    background: #fff;
+}
+.all .middleall .middle{
+    margin: 0 auto;
+    width: 1200px;    
+    height: 93px;
+}
+/* 积分商城 */
+.all .middleall h1{
+    display: inline-block;
+    cursor: pointer;
+    width: 172px;
+    height: 92px;
+    background: url(../images/jf_logo.jpg) no-repeat 0px 0px;
+    margin-right: 177px;
+}
+.all .middleall .toIndex:hover{
+    border:1px dotted black;
+}
+/* 积分竞拍 */
+.all .middleall .toPai{
+    display: inline-block;
+    /* padding: 24px; */
+    width: 446px;
+    height: 43px;
+    margin: 0 auto;
+    /* float: left; */
+}
+.all .middleall #toPai{
+    display: inline-block;
+    height: 43px;
+    vertical-align: 150%;
+}
+/* 全站搜索 */
+.all .middleall .search{
+    display: inline-block;
+    width: 351px;
+    height: 29px;
+    /* background-color: aquamarine; */
+    float: right;
+}
+.all .middleall .search form{
+    display: inline-block;
+    height: 33px;
+}
+.all .middleall #search{
+    display: inline-block;
+    width: 240px;
+    height: 25px;
+    padding: 1px;
+    margin-right: -7px;
+    margin-top: 31px;
+    outline: none; 
+    font: 12px "微软雅黑";
+    /* vertical-align: middle; */
+}
+.all .middleall #searchpic{
+    display: inline-block;
+    height:31px;
+    vertical-align: bottom;
+}
+/* 橙色导航 */
+.all .Nav{
+    width: 100%;
+    height: 42px;
+    font: 18px/42px "微软雅黑";
+    background: #ff4400;
+}
+.all .Nav .Navtop{
+    width: 1200px;
+    height: 42px;
+    background: #ff4400;
+    margin: 0 auto;
+    position: relative;
+}
+.all .Nav .Navtop .login{
+    width: 127px;
+    height: 30px;
+    cursor: pointer;
+  
+    position: absolute;
+    right: 160px;
+    
+}
+.all .Nav .Navtop #login{
+    text-indent: 42px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 42px;
+    background: url(../images/other.png) no-repeat 20px -151px;
+}
+.all .Nav .topNav .styleindex{
+    font-weight: bold;
+    background-color: #e53e01;
+}
+.all .Nav .topNav .active{
+    display: block;
+    width: 135px;
+    height: 42px;
+    /* background-color: #ff4400; */
+    /* color: #fff; */
+    text-align: center;
+    float: left;
+    position: relative;
+}
+.all .Nav .topNav .active a{
+    display: inline-block;
+    width: 135px;
+    height: 42px;
+    color: #fff;
+}
+.all .Nav .topNav .active .line{
+    font-size: 15px;
+    color: #cc3601;
+    position: absolute; 
+    top: -1px;
+    left: 132px;
+    
+}
+.all .Nav .topNav .active a:hover{
+    font-weight: bold;
+    background-color: #e53e01;
+}
+.all .Nav .topNav .active #activity{
+    position: relative;
+}
+.all .Nav .topNav .active .activity{
+    position: absolute;
+    display: none;
+    width: 164px;
+    height: 140px;
+    background-color: #e53e01;
+    z-index: 999;
+}
+.all .Nav .topNav .active:hover .activity{
+    width: 164px;
+    display: block;
+} 
+.all .Nav .topNav .active .activity{
+    width: 135px;
+    text-align: center;
+}
+.all .Nav #activity:hover .Nav .activity{
+    display: block;
+}
+        /* 首页主体 */
+.all .main{
+    width: 1200px; 
+    background: #f1f1f1;
+    margin:0 auto;
+}
+
+
+        /* 页面尾部 */
+.footerall{
+    width: 100%;
+    height: 292px;
+    background: #dcdcdc;
+} 
+.footerall .footer{
+    width: 1200px;
+    height: 292px;    
+    background: #dcdcdc;
+    margin:0 auto;
+}
+.footerall .footleft{
+    display: inline-block;
+    width: 800px;
+    height: 292px;    
+    /* background: #ff7f50; */
+    /* margin:0 auto; */
+    position: relative;
+}
+
+.footerall .footer .foot1{
+    display: inline-block;
+    width: 186px;
+    height: 210px;
+    padding-top: 23px;
+    background-color: #d2d2d2;
+    margin-top: 31px;
+    
+}
+.footerall .footer .foot1 .icon{
+    width: 88px;
+    height: 88px;
+    /* padding-top: 23px; */
+    margin: 0 auto;
+}
+.footerall .footer .foot1 .pos1{
+    background: url(../images/pcficon.png) 0px 0px;
+}
+.footerall .footer .foot1 .pos2{
+    background: url(../images/pcficon.png) 0px -88px;
+}
+.footerall .footer .foot1 .pos3{
+    background: url(../images/pcficon.png) 0px -176px;
+}
+.footerall .footer .foot1 .pos4{
+    background: url(../images/pcficon.png) 0px -264px;
+}
+.footerall .footer .foot1 .us{
+    display: inline-block;
+    height: 70px;
+    width: 80px;
+    font-size: 15px;
+    margin-left: 51px;
+    margin-top: 23px;
+    /* margin: 0 auto; */
+}
+.footerall .footer .foot1 .us span{
+    width: 63px;
+    height: 15px;
+    display: block;
+    font-size: 15px;
+    line-height: 32px;
+    color: #474747;
+    margin: 0 auto;
+}
+.footerall .footer .foot1 .us a{
+    text-align: left;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #707070;
+    margin-left: 7px;
+}
+.footerall .footer .foot1 .us a:hover{
+    color: #ff4400;
+}
+.footerall #code{
+    width: 356px;
+    height: 233px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #474747;
+    float: right;
+    margin-top: 30px;
+    margin-right: 34px;
+}
+.footerall .code{
+    height: 168px;
+    width: 100%;
+    line-height: 44px;
+    text-align: center;
+    font-size: 16px;
+    color: #474747;
+    background: url(../images/line.png) no-repeat center bottom;
+}
+.footerall .code p{
+    display: inline-block;
+    width: 356px;
+    font-size: 16px;
+    color: #474747;
+}
+.footerall .code img{
+    height: 90px;
+    width: 90px;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+.footerall .codetext{
+    text-align: center;
+}
+.footerall .codetext p+b{
+    font-weight: normal;
+    color: #969696;
+}
+.footerall .codetext p{
+    display: inline-block;
+    width: 356px;
+    font-size: 16px;
+    color: #474747;
+}
+.aboutsinaall{
+    width: 100%;
+    height: 100%;
+    background: #c9c9c9;
+} 
+.aboutsinaall .aboutsina{
+    width:980px;
+    height: 149px;
+    line-height: 16px;
+    text-align: center;
+    padding: 33px 0 36px;
+    margin:0 auto;
+} 
+.aboutsinaall .aboutsina p{
+    width:980px;
+    height: 16px;
+    font-size: 15px;
+    color: #707070;
+}
+.aboutsinaall .aboutsina p .sina1{
+    font-size: 14px;
+    color: #707070;
+}
+.aboutsinaall .aboutsina #aboutcom{
+    font-size: 14px;
+    color: #707070;
+}
+.aboutsinaall .aboutsina p .sina2{
+    font-size: 14px;
+    color: #707070;
+}
+.aboutsinaall .aboutsina p a:hover{
+    color: #ff4400;
+}
+
+.aboutsinaall #fixedtop a{
+    display: block;
+    width: 60px;
+    height: 50px;
+    background: url(../images/icon_top.png) no-repeat 17px 10px;
+    background-color: black;
+    opacity: 0.2;
+    cursor: pointer;
+    position: fixed;
+    top: 88%;
+    right: 2%;
+}
