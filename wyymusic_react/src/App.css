@@ -1,0 +1,68 @@
+
+header{
+	height: 64px;
+	display: flex;
+	justify-content: space-between;
+	background: #d43c33;
+}
+.logo{
+	color: #fff;
+	height: 64px;
+	font-size: 21px;
+	line-height: 64px;
+	background: url(http://localhost:3000/resource/images/logo.png) no-repeat 9px 23px;
+	text-indent: 36px;
+}
+.headright{
+	margin-top: 17px;
+  margin-right: 18px;
+	height: 30px;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	width: 80px;
+	position: relative;
+}
+.headright>span{
+	position: absolute;
+	left: 10px;
+	display: inline-block;
+	line-height: 32px;
+	font-size: 15px;
+	color: #fff;
+	border-radius: 15px;
+}
+nav{
+	width: 100%;
+	height: 40px;
+	display: flex;
+}
+nav>li{
+	list-style: none;
+	width: 33.3%;
+	height: 100%;
+	cursor: pointer;
+	border-bottom: #ccc 1px solid;
+}
+.navselect{
+	border-bottom: 2px solid #d33a31;
+	color: #D33A31;
+}
+nav>li>a{
+	display: inline-block;
+	width: 60%;
+	margin: 0 20%;
+	vertical-align: middle;
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+	color: #333;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
